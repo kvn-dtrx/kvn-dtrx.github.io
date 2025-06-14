@@ -1,32 +1,324 @@
-<!-- index.html -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="author" content="Kevin Dietrich" />
-  <meta name="description" content="Personal site for Kevin Dietrich – Data science, machine learning, and projects." />
-  <title>Kevin Dietrich</title>
-  <link rel="stylesheet" href="css/styles.css" />
-</head>
-<body>
-  <h1>kvn-dtrx</h1>
-  <p>Welcome to my GitHub Pages site. Here you'll find an overview of my <strong>projects</strong>, <strong>notebooks</strong>, and experimental work in data science & machine learning.</p>
 
-  <h2>🔗 Links</h2>
-  <ul>
-    <li><a href="https://github.com/kvn-dtrx">GitHub (Profile)</a></li>
-    <li><a href="https://www.linkedin.com/in/your-username/">LinkedIn</a></li>
-    <li><a href="mailto:kvn-dtrx@protonmail.ch">eMail</a></li>
-  </ul>
+  <head>
+    <meta charset="utf-8" />
+    <title>kvn-dtrx — Data Science and Machine Learning</title>
+    <meta name="author" content="Kevin Dietrich" />
+    <!-- <meta name="date" content="1970-01-01" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <h2>📁 Projects</h2>
-  <ul>
-    <li><a href="https://github.com/kvn-dtrx/ds-eda-project_king-county-house-prices">King County House Prices EDA</a></li>
-    <li><a href="https://github.com/kvn-dtrx/ds-ml-project_flight-prediction-challenge">Flight Delay Prediction</a></li>
-    <!-- Add more projects as needed -->
-  </ul>
+    <!-- Reveal.js core styles: base CSS for the framework -->
+    <link rel="stylesheet" href="vendor/my-reveal-js/reveal.js/dist/reveal.css" />
+    <!-- Reveal.js theme styles: Black theme -->
+    <link rel="stylesheet" href="vendor/my-reveal-js/reveal.js/dist/theme/black.css" />
+    <!-- Custom styles: overrides and additions to the theme -->
+    <link rel="stylesheet" href="vendor/my-reveal-js/css/black-post.css" />
+    <!-- Reveal.js core script: main JavaScript functionality -->
+    <script src="vendor/my-reveal-js/reveal.js/dist/reveal.js"></script>
 
-  <p style="margin-top: 4em; font-size: 0.9em; color: #777;">© 2025 The Author. All rights reserved.</p>
-</body>
+    <style>
+      .section-marker {
+        font-size: 6rem;
+        color: #888;
+        text-align: center;
+        margin-bottom: 0;
+        font-family: monospace, monospace;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- Introduction -->
+        <section>
+          <h2>My Data Science and Machine Learning Projects</h2>
+          <h4>A Concise Guided Tour</h4>
+          <h6><a href="https://github.com/kvn-dtrx" target="_blank">Kevin Dietrich</a></h6>
+        </section>
+
+        <section>
+          In the following slides, I briefly present the projects I completed during my <a href="https://www.neuefische.de/bootcamp/data-science-und-ai" target="_blank">Data Science and Artificial Intelligence course</a>.
+        </section>
+
+        <!-- Begin of projects -->
+        <section>
+          <div class="section-marker">&lt;projects&gt;</div>
+        </section>
+
+        <!-- DS Capstone Project -->
+        <section>
+          <h2 class="sc">Signal Sigma</h2>
+          <div class="slide-grid">
+            <div class="image-column">
+              <figure>
+                <img src="images/signal-sigma.png" alt="Signal Sigma" />
+                <figcaption>Machine-generated image</figcaption>
+              </figure>
+            </div>
+            <div class="text-column">
+              <p><em>Data Science Capstone Project</em>: Financial forecasting pipeline using Temporal Fusion Transformer with engineered features, probabilistic predictions, and an interactive Streamlit dashboard.</p>
+
+              <p><a class="button-link" href="https://github.com/kvn-dtrx/ds-capstone-project_signal-sigma" target="_blank" rel="noopener noreferrer">→ View the project</a></p>
+            </div>
+          </div>
+        </section>
+
+        <!-- DS ML Project -->
+        <section>
+          <h2 class="sc">Flight Delay Prediction</h2>
+          <div class="slide-grid">
+            <div class="image-column">
+              <figure>
+                <img src="images/flight-delay-prediction.jpg" alt="Flight Delay Prediction" />
+                <figcaption>Machine-generated image</figcaption>
+              </figure>
+            </div>
+            <div class="text-column">
+              <p><em>Data Science ML Project</em>: Prediction of Flight Delay Duration with CatBoost, a gradient boosting method suited for scenarios where the majority of features are categorical.</p>
+
+              <p><a class="button-link" href="https://github.com/kvn-dtrx/ds-ml-project_flight-prediction-challenge" target="_blank" rel="noopener noreferrer">→ View the project</a></p>
+
+              <p><a class="button-link" href="https://zindi.africa/competitions/flight-delay-prediction-challenge" target="_blank" rel="noopener noreferrer">→ Compare with this challenge</a></p>
+            </div>
+          </div>
+        </section>
+
+        <!-- DS Classification Project -->
+        <section>
+          <h2 class="sc">Pima Diabetes</h2>
+          <div class="slide-grid">
+            <div class="image-column">
+              <figure>
+                <img src="images/pima-diabetes.jpg" alt="Pima Diabetes" />
+                <figcaption><a href="https://www.meritushealth.com" target="_blank" rel="noopener noreferrer">© Meritus Health</a></figcaption>
+                <!-- https://www.meritushealth.com/_next/image?url=https%3A%2F%2Fmhweb-content-a.meritushealth.com%2Fassets%2FEACD99CB-217C-40E9-AE48-578FE17A354B&w=1920&q=100 -->
+              </figure>
+            </div>
+            <div class="text-column">
+              <p><em>Data Science Classification Project</em>: Prediction of diabetes status among the Pima people based near Phoenix, Arizona, using a decision tree classifier.</p>
+
+              <p><a class="button-link" href="https://github.com/kvn-dtrx/ds-classification-project_pima-diabetes" target="_blank" rel="noopener noreferrer">→ View the project</a></p>
+
+              <p><a class="button-link" href="https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database" target="_blank" rel="noopener noreferrer">→ Compare with this challenge</a></p>
+            </div>
+          </div>
+        </section>
+
+        <!-- DS EDA Project -->
+        <section>
+          <h2 class="sc">King County House Prices</h2>
+          <div class="slide-grid">
+            <div class="image-column">
+              <figure>
+                <img src="images/king-county-house-prices.jpg" alt="King County House " />
+                <figcaption> <a href="https://unsplash.com/@maxconacher" target="_blank" rel="noopener noreferrer">© Maximilan Conacher</a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="text-column">
+              <p><em>Data Science EDA Project</em>: An exploratory data analysis of house prices in King County, Washington, inferring purchase and sale recommendations for a hypothetical client.</p>
+
+              <p><a class="button-link" href="https://github.com/kvn-dtrx/ds-eda-project_king-county-house-prices" target="_blank" rel="noopener noreferrer">→ View the project</a></p>
+
+              <p><a class="button-link" href="https://www.kaggle.com/datasets/harlfoxem/housesalesprediction" target="_blank" rel="noopener noreferrer">→ Compare with this challenge</a></p>
+            </div>
+          </div>
+        </section>
+
+        <!-- End of projects -->
+        <section>
+          <div class="section-marker">&lt;/projects&gt;</div>
+        </section>
+
+        <!-- Contact slide -->
+        <section>
+          <section>
+            <h2>Contact</h2>
+            <style>
+              .contact-table,
+              .contact-table tr,
+              .contact-table th,
+              .contact-table td {
+                border: none !important;
+                outline: none !important;
+                box-shadow: none !important;
+                background: none !important;
+              }
+
+              .contact-table {
+                border-collapse: separate !important;
+                border-spacing: 0 1.5em !important;
+                width: 100%;
+                max-width: 600px;
+                margin: 1em auto 0;
+                font-size: 1.2rem;
+              }
+
+              .contact-table td {
+                padding: 1.2em 1em;
+                vertical-align: top;
+              }
+
+              .contact-table td.label {
+                font-weight: bold;
+                text-align: right;
+                white-space: nowrap;
+              }
+
+              .contact-table td.value {
+                font-family: monospace;
+              }
+
+              pre,
+              code {
+                background-color: #222;
+                /* dark background */
+                color: #f8f8f2;
+                /* light, soft text */
+                padding: 1em;
+                border-radius: 6px;
+                font-family: 'Fira Code', monospace;
+                font-size: 0.9em;
+                overflow-x: auto;
+                box-shadow: 0 0 10px rgba(255, 0, 115, 0.3);
+              }
+            </style>
+            <div style="font-size: 1rem; margin-top: 1em;">
+              <table class="contact-table">
+                <tbody>
+                  <tr>
+                    <td class="label">Website:</td>
+                    <td class="value"><a href="https://kvn-dtrx.github.io" target="_blank">https://kvn-dtrx.github.io</a></td>
+                  </tr>
+                  <tr>
+                    <td class="label">GitHub:</td>
+                    <td class="value"><a href="https://github.com/kvn-dtrx" target="_blank">https://github.com/kvn-dtrx</a></td>
+                  </tr>
+                  <tr>
+                    <td class="label">LinkedIn:</td>
+                    <td class="value"><a href="https://linkedin.com/in/kevin-kd-dietrich" target="_blank">https://linkedin.com/in/kevin-kd-dietrich</a></td>
+                  </tr>
+                  <tr>
+                    <td class="label">Email:</td>
+                    <td class="value"><a href="mailto:kevin.dietrich+github@protonmail.ch" target="_blank">mailto:kevin.dietrich+github@protonmail.ch</a></td>
+                  </tr>
+
+                  <tr>
+                    <td class="label">PGP:</td>
+                    <td class="value">Available below</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </section>
+
+          <section>
+            <h2>PGP</h2>
+            <style>
+              .copy-pgp-btn {
+                margin-bottom: 0.5em;
+                cursor: pointer;
+                padding: 0.4em 0.8em;
+                border-radius: 4px;
+                border: 1px solid #ff0073;
+                background: white;
+                color: #ff0073;
+                font-weight: bold;
+                transition: background-color 0.3s, color 0.3s;
+              }
+
+              .copy-pgp-btn:hover {
+                background-color: #ff0073;
+                color: white;
+              }
+            </style>
+            <button id="copy-pgp-btn" class="copy-pgp-btn">Copy</button>
+            <pre>
+              <code id="pgp-key" class="language-plaintext" style="user-select: text;">-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEZ2Jr/BYJKwYBBAHaRw8BAQdAWXdid36axLrc3uegXUvSne5IRJFFwgEik2WP
+4oR3FMq0L2t2bi5kdHJ4QHByb3Rvbm1haWwuY2ggPGt2bi5kdHJ4QHByb3Rvbm1h
+aWwuY2g+iNEEExYKAIMFgmdia/wDCwkHCZBXvgUmHxqJtEUUAAAAAAAcACBzYWx0
+QG5vdGF0aW9ucy5vcGVucGdwanMub3JnAUJ0VS94Ek/0vFmE03aIZo8jhqw5P311
+qwk/NB7FC+0DFQoIBBYAAgECGQECmwMCHgEWIQRbPQSgDcBMV8RvkiJXvgUmHxqJ
+tAAAqRkBANxoZmSyLmUGW04ilD/ay7rfYKXwF7y2wLBBi2KoNgYjAQCxMTN7B6X1
+Q/0bWEngjfgvCGr7fgczPB3xQdG3yJf2BIjeBBAWCACQBYJnYmw5BYMBmhNcCRDY
+BsGvWXjoxzUUAAAAAAAcABBzYWx0QG5vdGF0aW9ucy5vcGVucGdwanMub3JnMyQh
+curvIXGifkA1pAsQjSwcb3BlbnBncC1jYUBwcm90b24ubWUgPG9wZW5wZ3AtY2FA
+cHJvdG9uLm1lPhYhBAqGUv5dUzhgV4mf6dgGwa9ZeOjHAACL9AD/eFGaxfZwgAif
+/lyVFiXQntZ90k08mUBe3RFy/v3q3/IBALWOesxygZZmwbuFyw+c1/Fb/SfH+pDx
+1OVLhPeCJOUNuDgEZ2Jr/BIKKwYBBAGXVQEFAQEHQFO+HStpxyezEfzzZH1UGIKy
+t/CEhhli8cqtceyrf+dXAwEIB4i+BBgWCgBwBYJnYmv8CZBXvgUmHxqJtEUUAAAA
+AAAcACBzYWx0QG5vdGF0aW9ucy5vcGVucGdwanMub3JnZncKnwzExXZ3y8ugmF0N
+4NkCVi0PBkexflq2zQwT1pACmwwWIQRbPQSgDcBMV8RvkiJXvgUmHxqJtAAAKJsB
+ALRUxMBXrCTJgBvDCHsykkzqPvjiYJHQELiJp93r2cXhAQDe9C3Tq6nhdFSPz2hs
+e2vhOX2K2YCJxmr8zOytYyg5Cg==
+=2upb
+-----END PGP PUBLIC KEY BLOCK-----
+</code>
+            </pre>
+            <script>
+              const btn = document.getElementById('copy-pgp-btn');
+              btn.addEventListener('click', () => {
+                const text = document.getElementById('pgp-key').innerText;
+                navigator.clipboard.writeText(text).then(() => {
+                  btn.textContent = '✔ Copied!';
+                  btn.style.backgroundColor = '#ff0073';
+                  btn.style.color = 'white';
+                  setTimeout(() => {
+                    btn.textContent = 'Copy';
+                    btn.style.backgroundColor = 'white';
+                    btn.style.color = '#ff0073';
+                  }, 2000);
+                }).catch(err => {
+                  btn.textContent = '✘ Failed';
+                  btn.style.backgroundColor = '#d9534f';
+                  btn.style.color = 'white';
+                  setTimeout(() => {
+                    btn.textContent = 'Copy';
+                    btn.style.backgroundColor = 'white';
+                    btn.style.color = '#ff0073';
+                  }, 2000);
+                });
+              });
+            </script>
+          </section>
+        </section>
+
+        <!-- <section>
+          <h2>Colophon</h2>
+          <div class="colophon">
+            <p>
+              <strong>Author:</strong> Kevin Dietrich</a><br>
+            </p>
+
+            <p>
+              <strong>Template:</strong>
+              This Presentation was generated with <a href="https://revealjs.com/">Reveal.js</a> using a customised <code class="">black</code> theme.
+            </p> -->
+
+        <!-- <p>
+              <strong>License:</strong>
+              <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a><br>
+            </p> -->
+        <!-- </div>
+        </section> -->
+
+      </div>
+    </div>
+  </body>
+
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: true,
+      // view: 'scroll',
+      scrollSnap: 'mandatory',
+      showNotes: "separate-page",
+    });
+  </script>
+
 </html>
