@@ -1,32 +1,85 @@
-<!-- index.html -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <title>kvn-dtrx — Data Science and Machine Learning</title>
   <meta name="author" content="Kevin Dietrich" />
-  <meta name="description" content="Personal site for Kevin Dietrich – Data science, machine learning, and projects." />
-  <title>Kevin Dietrich</title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <!-- <meta name="date" content="1970-01-01" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="vendor/reveal.js/dist/reveal.css" />
+  <link rel="stylesheet" href="vendor/reveal.js/dist/theme/black.css" />
+  <script src="vendor/reveal.js/dist/reveal.js"></script>
 </head>
 <body>
-  <h1>kvn-dtrx</h1>
-  <p>Welcome to my GitHub Pages site. Here you'll find an overview of my <strong>projects</strong>, <strong>notebooks</strong>, and experimental work in data science & machine learning.</p>
+  <div class="reveal">
+    <div class="slides">
 
-  <h2>🔗 Links</h2>
-  <ul>
-    <li><a href="https://github.com/kvn-dtrx">GitHub (Profile)</a></li>
-    <li><a href="https://www.linkedin.com/in/your-username/">LinkedIn</a></li>
-    <li><a href="mailto:kvn-dtrx@protonmail.ch">eMail</a></li>
-  </ul>
+      <section>
+        <h4>A Guided Tour Through My Data Science and Machine Learning Projects</h4>
 
-  <h2>📁 Projects</h2>
-  <ul>
-    <li><a href="https://github.com/kvn-dtrx/ds-eda-project_king-county-house-prices">King County House Prices EDA</a></li>
-    <li><a href="https://github.com/kvn-dtrx/ds-ml-project_flight-prediction-challenge">Flight Delay Prediction</a></li>
-    <!-- Add more projects as needed -->
-  </ul>
+        <h2></h2>
 
-  <p style="margin-top: 4em; font-size: 0.9em; color: #777;">© 2025 The Author. All rights reserved.</p>
+        <p style="font-size: 14px; color: hotpink;">
+          <strong>Kevin Dietrich</strong><br />
+          <!-- 2025-03-17 -->
+        </p>
+      </section>
+      <!-- anti-chronologically ordered, witness some progress -->
+
+      <!-- DS Capstone Project -->
+      <section>
+        <h1>Signal Sigma</h1>
+        <p>
+          Link to project <a href="https://github.com/kvn-dtrx/ds-capstone-project_signal-sigma">here</a> </br>
+
+          Financial forecasting pipeline using Temporal Fusion Transformer with engineered features, probabilistic predictions, and an interactive Streamlit dashboard
+        </p>
+      </section>
+
+      <!-- DS ML Project -->
+      <section>
+        <h1>Flight Prediction Challenge</h1>
+        <p>
+          Link to project <a href="https://github.com/kvn-dtrx/ds-ml-project_flight-prediction-challenge">here</a> </br>
+        </p>
+      </section>
+
+      <!-- DS Classification Project -->
+      <section>
+        <h1>Diabetes Challenge</h1>
+        <p>
+          Link to project <a href="https://github.com/kvn-dtrx/ds-classification-project_diabetes-challenge">here</a> </br>
+        </p>
+      </section>
+
+      <!-- DS EDA Project -->
+      <section>
+        <h1>King County House Prices</h1>
+        <p>
+          Link to project <a href="https://github.com/kvn-dtrx/ds-eda-project_king-county-house-prices">here</a> </br>
+        </p>
+      </section>
+
+      <!-- Final Slide -->
+      <section>
+        <h1>Final Slide</h1>
+        <p>
+          This is the final slide
+        </p>
+        <p style="margin-top: 4em; font-size: 0.9em; color: #777;">© 2025 The Author. All rights reserved.</p>
+      </section>   
+    </div>
+  </div>
+
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: true,
+      view: 'scroll',
+      scrollSnap: 'mandatory',
+      showNotes: "separate-page",
+    });
+  </script>
 </body>
+
 </html>
