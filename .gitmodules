@@ -1,0 +1,4 @@
+[submodule "vendor/my-reveal-js"]
+	path = vendor/my-reveal-js
+	url = git@github.com:kvn-dtrx/my-reveal-js.git
+	branch = main
