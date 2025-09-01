@@ -1,0 +1,7 @@
+project:
+  name: kvn-dtrx.github.io
+  description: Personal website hosted on GitHub Pages
+  github: https://github.com/kvn-dtrx/kvn-dtrx.github.io
+  authors:
+    - name: Kvn Dtrx
+      mail: kvn.dtrx+git@protonmail.ch
