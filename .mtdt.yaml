@@ -1,7 +1,15 @@
 project:
+  id: 132b4e8e-342b-42c8-8b6c-0b70e77b0473
   name: kvn-dtrx.github.io
-  description: Personal website hosted on GitHub Pages
-  github: https://github.com/kvn-dtrx/kvn-dtrx.github.io
+  description: >-
+    Personal website hosted on GitHub Pages
   authors:
     - name: Kvn Dtrx
       mail: kvn.dtrx+git@protonmail.ch
+  license:
+    type: MIT
+    year: 2025, 2026
+forges:
+  github:
+    url: https://github.com/kvn-dtrx/kvn-dtrx.github.io
+    visibility: public
